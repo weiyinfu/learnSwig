@@ -45,11 +45,15 @@ extern int    my_mod(int n, int m);
      -outcurrentdir  - Set default output dir to current dir instead of input file's path
      -outdir <dir>   - 设置语言特定的输出文件
 
+# swig的模式
+swig会生成cpp/c的wrapper和目标语言的wrapper。  
+其中生成的cpp/c的wrapper可以使用-c++选项来控制生成C++还是生成C语言。  
+
 # swig可以输出xml
 基于此xml格式可以做很多事情。  
-
 
 # 参考资料
 * tutorial：https://www.swig.org/tutorial.html
 * documentation：https://www.swig.org/Doc4.0/index.html
 * swig basics：https://www.swig.org/Doc4.0/SWIG.html#SWIG
+* Java Swig最佳实践：https://java366.com/blog/detail/fcd98b5449fdd146b60eb77efa441175

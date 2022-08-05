@@ -33,7 +33,8 @@
     #include "VolcEngineRTC-341.104.001-header/rtc/bytertc_transcoder_base_interface.h"
     #include "VolcEngineRTC-341.104.001-header/rtc/internal/bytertc_stream_internal.h"
 %}
-
+%include "enumtypeunsafe.swg"
+%javaconst(1);
 %include "VolcEngineRTC-341.104.001-header/rtc/bytertc_common_defines.h"
 %include "VolcEngineRTC-341.104.001-header/rtc/bytertc_defines.h"
 %include "VolcEngineRTC-341.104.001-header/rtc/bytertc_audio_defines.h"
